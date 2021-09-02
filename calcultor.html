@@ -1,0 +1,79 @@
+<! DOCTYPE html>  
+<html>  
+    <head>  
+    <title>  Calculator </title>  
+    
+    <style>  
+    
+input {  
+  width: 100px;  
+  height: 40px;  
+ 
+  padding: 0;  
+  margin: 5px; 
+  border-radius: 20px; 
+ 
+  background:white;  
+  border: none;  
+  font-size: 30px;  
+  line-height: 20px;   
+  font-weight: 700;  
+  color: black;  
+ 
+} 
+
+ input:hover{
+
+   background-color: yellow;
+}
+#display {  
+  height: 70px; 
+  width: 300px; 
+  text-align: right;  
+  background-color: white;  
+  border: 3px solid white;  
+  font-size: 18px;  
+  left: 2px;  
+  top: 2px;  
+  color: red;  
+  margin-right: 40px;
+   
+    </style>  
+</head>  
+<body>  
+    <form name="Calculator">  
+<table border="2" align="center"  bgcolor="skyblue"> <h1 align="center">Calculator</h1> <br>
+<tr>  
+<td colspan="4px">   
+<input align="center" id="display"  style="border-radius: 4px;"> 
+
+</td>  
+</tr>  
+<tr>  
+<td>  
+<input type="button" name = "one" style="font-size:30px" value=" 1 " style="Calculator.Input.value += '1'">  
+<input type="button" name = "two" style = "font-size:30px" value=" 2 " style= "Calculator.Input.value += '2'">  
+<input type="button" name = "three" style="font-size:30px" value=" 3 " style ="Calculator.Input.value += '3'">  
+<input type="button" name="add" style="font-size:30px" value=" + " style ="Calculator.Input.value += ' + '">  
+<br>  
+<input type="button" name = "four" style="font-size:30px" value=" 4 " style ="Calculator.Input.value += '4'">  
+<input type="button" name = "five" style="font-size:30px" value=" 5 " style ="Calculator.Input.value += '5'">  
+<input type="button" name = "six" style="font-size:30px" value=" 6 " style= "Calculator.Input.value += '6'">  
+<input type="button" name = "minus" style="font-size:30px" value=" - " style= "Calculator.Input.value += ' - '">  
+<br>  
+<input type="button" name = "seven" style="font-size:30px" value=" 7 " style= "Calculator.Input.value += '7'">  
+<input type="button" name = "eight" style="font-size:30px" value=" 8 " style= "Calculator.Input.value += '8'">  
+<input type="button" name = "nine" style="font-size:30px" value=" 9 " style= "Calculator.Input.value += '9'">  
+<input type="button" name = "mul" style="font-size:30px" value=" * " style ="Calculator.Input.value += ' * '">  
+<br>  
+<input type="button" name = "div" style="font-size:30px" value=" / " style= "Calculator.Input.value = '/'">  
+<input type="button" name="zero" style="font-size:30px" value=" 0 " style= "Calculator.Input.value += '0'">  
+<input type="button" name="equalto" style="font-size:30px" value=" = " style= "Calculator.Input.value = eval">  
+<input type="button" name="clear" style="font-size:30px" value="c" style= "Calculator.Input.value += ''">  
+<br>  
+</td>   
+</tr>  
+</table>  
+</form>  
+</body>  
+</html>     
